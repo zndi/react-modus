@@ -1,0 +1,82 @@
+.container-page {
+  max-width: 700px;
+  background: linear-gradient(333deg, rgb(88, 141, 172), rgb(226, 242, 245));
+  position: relative;
+  padding: 10px;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+label {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+input[type='radio'] {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+}
+@media screen and (max-width: 700px) {
+  .container-multiform {
+    margin: 10px;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  label {
+    font-size: 15px;
+    margin: 2px 0;
+  }
+
+  input[type='radio'] {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+label,
+input {
+  display: block;
+}
+.error {
+  font-size: 10px;
+  display: block;
+  margin-top: 20px;
+  width: 50%;
+  margin: 5px auto 0;
+  text-align: center;
+}
+.indice-modus {
+  margin-top: 25px;
+  padding: 10px;
+}
+.letter-indice {
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  background-color: blue;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.indice-modus-color{
+  display: flex;
+}
+
+.indice-modus-comment {
+  text-align: center;
+  margin-left: 4px;
+  font-size: 12px;
+}
